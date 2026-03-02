@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phong Flash Lab</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0a0e1a;
+      color: #c8d0e0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 1rem 2.5rem;
+      border-bottom: 1px solid rgba(26, 32, 64, 0.5);
+      background: rgba(10, 14, 26, 0.65);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 0px 60px rgba(0, 0, 0, 0.75);
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 300;
+      letter-spacing: 0.1em;
+      color: #e0e6f0;
+      white-space: nowrap;
+    }
+    header h1 span { color: #3a5a8a; }
+
+    /* ── Filters ── */
+    .filters {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    @keyframes chip-bounce-in {
+      0%   { transform: scale(1); opacity: 0.4; }
+      35%  { transform: scale(1.08); opacity: 1; }
+      55%  { transform: scale(1.03); opacity: 0.95; }
+      75%  { transform: scale(1.06); opacity: 1; }
+      100% { transform: scale(1.05); opacity: 1; }
+    }
+    @keyframes chip-bounce-out {
+      0%   { transform: scale(1.05); opacity: 1; }
+      35%  { transform: scale(0.98); opacity: 0.35; }
+      60%  { transform: scale(1.01); opacity: 0.42; }
+      100% { transform: scale(1); opacity: 0.4; }
+    }
+    .filters button {
+      background: #111828;
+      color: #6a7a9a;
+      border: 3px solid #1a2040;
+      padding: 0.4rem 0.8rem;
+      border-radius: 32px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      opacity: 0.4;
+      transform: scale(1);
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    .filters button.hover-in {
+      animation: chip-bounce-in 0.5s ease-in-out forwards;
+    }
+    .filters button.hover-out {
+      animation: chip-bounce-out 0.45s ease-out forwards;
+    }
+    .filters button:hover {
+      color: #a0c4ff;
+      border-color: #3a6fd8;
+      background: #1a2545;
+    }
+    .filters button:active {
+      animation: none !important;
+      transform: scale(0.95);
+      opacity: 1;
+    }
+    .filters button.active {
+      background: #1a2545;
+      color: #a0c4ff;
+      border-color: #3a6fd8;
+      opacity: 1;
+    }
+
+    /* ── Gallery Grid ── */
+    .gallery {
+      flex: 1;
+      padding: 3rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2.5rem;
+      align-content: start;
+    }
+
+    /* ── Cards ── */
+    @keyframes card-enter {
+      0%   { transform: scale(0.5); opacity: 0; }
+      50%  { transform: scale(1.06); opacity: 0.3; }
+      70%  { transform: scale(0.97); opacity: 0.22; }
+      85%  { transform: scale(1.02); opacity: 0.26; }
+      100% { transform: scale(1) translateY(0); opacity: 0.25; }
+    }
+    @keyframes card-bounce-in {
+      0%   { transform: scale(1) translateY(0); opacity: 0.25; }
+      35%  { transform: scale(1.055) translateY(-6px); opacity: 1; }
+      55%  { transform: scale(1.025) translateY(-2.5px); opacity: 0.92; }
+      75%  { transform: scale(1.045) translateY(-4.5px); opacity: 1; }
+      90%  { transform: scale(1.035) translateY(-3.5px); opacity: 0.98; }
+      100% { transform: scale(1.04) translateY(-4px); opacity: 1; }
+    }
+    @keyframes card-bounce-out {
+      0%   { transform: scale(1.04) translateY(-4px); opacity: 1; }
+      30%  { transform: scale(0.985) translateY(1px); opacity: 0.2; }
+      55%  { transform: scale(1.01) translateY(-0.5px); opacity: 0.28; }
+      80%  { transform: scale(0.998) translateY(0.2px); opacity: 0.24; }
+      100% { transform: scale(1) translateY(0); opacity: 0.25; }
+    }
+    .card {
+      background: #0f1525;
+      border: 6px solid #1a2040;
+      border-radius: 32px;
+      overflow: hidden;
+      cursor: pointer;
+      opacity: 0;
+      transform: scale(0.5);
+      transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+    }
+    .card.enter {
+      animation: card-enter 1s ease-out forwards;
+    }
+    .card.hover-in {
+      animation: card-bounce-in 0.65s ease-in-out forwards;
+    }
+    .card.hover-out {
+      animation: card-bounce-out 0.6s ease-out forwards;
+    }
+    .card:hover {
+      border-color: #3a6fd8;
+      box-shadow:
+        0 0 25px rgba(58, 111, 216, 0.2),
+        0 15px 40px rgba(0, 0, 0, 0.4),
+        0 0 80px rgba(58, 111, 216, 0.06);
+    }
+    .card:active {
+      animation: none !important;
+      transform: scale(0.97) translateY(0);
+      opacity: 1;
+    }
+    .card img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      display: block;
+      background: #080c16;
+      object-fit: cover;
+      filter: saturate(0.3) brightness(0.85);
+      transition: filter 0.4s ease;
+    }
+    .card:hover img {
+      filter: saturate(1) brightness(1);
+    }
+    .card .meta {
+      padding: 0.75rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card .meta .name {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #8a96b0;
+      transition: color 0.3s;
+    }
+    .card:hover .meta .name {
+      color: #e0e8ff;
+    }
+    .card .meta .category {
+      font-size: 0.75rem;
+      color: #3a4a6a;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: color 0.3s;
+    }
+    .card:hover .meta .category {
+      color: #5a7aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PHONG <span>flash lab</span></h1>
+    <div class="filters" id="filters"></div>
+  </header>
+  <div class="gallery" id="gallery"></div>
+  <script type="module" src="/src/gallery.js"></script>
+</body>
+</html>

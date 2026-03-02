@@ -1,0 +1,1 @@
+blueTotal = 1;

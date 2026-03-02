@@ -1,0 +1,17 @@
+{
+  "name": "phong",
+  "version": "1.0.0",
+  "description": "Phong Flash animations recreated for the web",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp -r extracted dist/ && cp -r thumbnails dist/",
+    "preview": "vite preview"
+  },
+  "author": "Anson Vogt (original Flash), web port",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.58.2",
+    "vite": "^7.3.1"
+  }
+}

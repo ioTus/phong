@@ -1,0 +1,2 @@
+txt.textition = textition;
+stop();

@@ -1,0 +1,14 @@
+eGrow = _root.eGrow3;
+sinGrow = Math.sin(eGrow / 8);
+BallScale = 100 + _root.Dot._xscale / 4;
+Ball._xscale = BallScale / 4;
+Ball._yscale = BallScale / 4;
+spin._x = mousePos / 50 * Math.sin(eGrow / 5) * 20 * -1 + Math.random() * 5;
+spin._y = mousePos / 50;
+spinScale = spin._xscale - spin._xscale / 400;
+spin._xscale = spinScale;
+spin._yscale = spinScale;
+xmouse += (xmouse - _xmouse) / 20;
+ymouse += (ymouse - _ymouse) / 20;
+mousePos = (xmouse + ymouse) / 2;
+ballStop = 50 + Math.round(Math.abs(Math.cos(eGrow / 100) * 400 + Math.sin(eGrow / 20) * 50) + mousePos / 10);

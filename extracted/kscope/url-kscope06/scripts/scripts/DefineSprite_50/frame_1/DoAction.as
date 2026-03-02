@@ -1,0 +1,16 @@
+jpgURL = new Array();
+jpgURL[0] = "http://www.podcollective.com/posts/abh_kscope1100.jpg";
+jpgURL[1] = "http://www.podcollective.com/browse/content/Xavi/art/01.eternityvision.jpg";
+jpgURL[2] = "http://www.podcollective.com/covers/sandalaxavius.jpg";
+jpgURL[3] = "http://www.podcollective.com/browse/content/Aaron%20Rix/mandalas/01.sweetness.jpg";
+jpgURL[4] = "http://www.podcollective.com/browse/content/Phong/graphics/projection_1280.jpg";
+jpgURL[5] = "http://www.podcollective.com/browse/content/Phong/graphics/lightmind1280.jpg";
+jpgURL[6] = "http://www.podcollective.com/browse/content/Sandbag/digital_art/fracsnowflake2.jpg";
+jpgURL[7] = "http://www.podcollective.com/browse/content/Sandbag/digital_art/subgatespaceport.jpg";
+urlNum = jpgURL.length;
+randomURL = jpgURL[0];
+panel.picURL = randomURL;
+picURL = randomURL;
+loadNew = 16;
+loadPercent = 0;
+loading.gotoAndPlay(22);

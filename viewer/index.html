@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phong Viewer</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000;
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+    }
+    .stage-area {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      position: relative;
+    }
+    .toolbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 0.75rem 1.5rem;
+      background: rgba(0,0,0,0.8);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      z-index: 10;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .stage-area:hover .toolbar { opacity: 1; }
+    .toolbar a {
+      color: #888;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-family: -apple-system, sans-serif;
+    }
+    .toolbar a:hover { color: #fff; }
+    .toolbar .title {
+      color: #ccc;
+      font-family: -apple-system, sans-serif;
+      font-size: 0.9rem;
+      flex: 1;
+    }
+    .toolbar .fps {
+      color: #666;
+      font-family: monospace;
+      font-size: 0.8rem;
+    }
+    .toolbar-btn {
+      background: none;
+      border: 1px solid #444;
+      color: #888;
+      font-family: -apple-system, sans-serif;
+      font-size: 0.8rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .toolbar-btn:hover { color: #fff; border-color: #666; }
+    .toolbar-btn.active { color: #fff; border-color: #666; background: rgba(255,255,255,0.1); }
+    canvas {
+      flex: 1;
+      width: 100%;
+      height: 100vh;
+      display: block;
+    }
+
+    /* ── Insight Panel ── */
+    .insight-panel {
+      width: 0;
+      overflow: hidden;
+      transition: width 0.3s ease;
+      background: #111;
+      border-left: 1px solid #333;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    .insight-panel.open { width: 380px; }
+
+    .insight-tabs {
+      display: flex;
+      border-bottom: 1px solid #333;
+      flex-shrink: 0;
+      min-width: 380px;
+    }
+    .insight-tabs button {
+      flex: 1;
+      padding: 0.6rem 1rem;
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: #666;
+      font-size: 0.8rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .insight-tabs button:hover { color: #aaa; }
+    .insight-tabs button.active { color: #ccc; border-bottom-color: #ccc; }
+
+    .insight-tab-content {
+      flex: 1;
+      overflow-y: auto;
+      min-width: 380px;
+    }
+    .insight-tab-content > div { display: none; padding: 1rem; }
+    .insight-tab-content > div.active { display: block; }
+
+    /* ── Controls Tab ── */
+    .control-group {
+      margin-bottom: 1.2rem;
+    }
+    .control-group label {
+      display: block;
+      color: #666;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.5rem;
+    }
+    .control-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.4rem;
+    }
+    .color-swatch {
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+      border: 2px solid #444;
+      cursor: pointer;
+      transition: border-color 0.2s;
+      position: relative;
+    }
+    .color-swatch:hover { border-color: #888; }
+    .color-swatch input[type="color"] {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      border: none;
+    }
+    .color-hex {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      color: #ccc;
+      font-family: 'SF Mono', 'Fira Code', Consolas, monospace;
+      font-size: 0.8rem;
+      padding: 0.4rem 0.5rem;
+      border-radius: 4px;
+      width: 90px;
+    }
+    .color-hex:focus { outline: none; border-color: #666; }
+    .color-presets {
+      display: flex;
+      gap: 0.3rem;
+      margin-left: 0.3rem;
+    }
+    .color-preset {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1px solid #444;
+      cursor: pointer;
+      transition: border-color 0.2s, transform 0.15s;
+    }
+    .color-preset:hover { border-color: #888; transform: scale(1.15); }
+
+    .tint-clear {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      color: #666;
+      background: #1a1a1a !important;
+      border-style: dashed !important;
+    }
+    .tint-clear:hover { color: #fff; }
+
+    #tint-swatch[style*="transparent"] {
+      background: repeating-conic-gradient(#333 0% 25%, transparent 0% 50%) 50% / 8px 8px !important;
+    }
+
+    .control-btn {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      color: #aaa;
+      font-family: inherit;
+      font-size: 0.8rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s, background 0.2s;
+    }
+    .control-btn:hover { color: #fff; border-color: #666; background: #222; }
+    .control-btn.active { color: #fff; background: #333; border-color: #666; }
+    .restore-btn { font-size: 0.7rem; color: #666; border-style: dashed; }
+    .restore-btn:hover { color: #ff8888; border-color: #664444; }
+
+    .slider-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .slider-row input[type="range"] {
+      flex: 1;
+      accent-color: #888;
+      height: 4px;
+    }
+    .slider-value {
+      color: #888;
+      font-family: 'SF Mono', 'Fira Code', Consolas, monospace;
+      font-size: 0.75rem;
+      min-width: 3em;
+      text-align: right;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 0.3rem 0.75rem;
+      font-size: 0.8rem;
+    }
+    .stats-grid .stat-label { color: #666; }
+    .stats-grid .stat-value {
+      color: #aaa;
+      font-family: 'SF Mono', 'Fira Code', Consolas, monospace;
+    }
+
+    /* ── Code Tab ── */
+    .code-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      display: flex;
+      justify-content: flex-end;
+      padding: 0.5rem;
+      pointer-events: none;
+    }
+    .code-toolbar button {
+      pointer-events: auto;
+    }
+    .code-container {
+      background: #0d0d0d;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-size: 0.75rem;
+      line-height: 1.6;
+    }
+    .code-container pre {
+      margin: 0;
+      padding: 1rem;
+      font-family: 'SF Mono', 'Fira Code', Consolas, monospace;
+      color: #ccc;
+      white-space: pre;
+    }
+    .code-container pre.wrap {
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .code-container .line-num {
+      display: inline-block;
+      width: 2.5em;
+      text-align: right;
+      color: #444;
+      margin-right: 1em;
+      user-select: none;
+    }
+    .code-container .hl-keyword { color: #c792ea; }
+    .code-container .hl-string { color: #c3e88d; }
+    .code-container .hl-number { color: #f78c6c; }
+    .code-container .hl-comment { color: #546e7a; }
+    .code-container .hl-math { color: #82aaff; }
+    .annotation {
+      display: block;
+      color: #ffcb6b;
+      font-size: 0.7rem;
+      padding: 0.15rem 0 0.15rem 3.5em;
+      font-style: italic;
+      opacity: 0.85;
+    }
+    .code-loading {
+      color: #666;
+      font-style: italic;
+      padding: 2rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="stage-area">
+    <div class="toolbar">
+      <a href="/" id="back">&larr; Gallery</a>
+      <span class="title" id="title"></span>
+      <span class="fps" id="fps"></span>
+      <button class="toolbar-btn" id="insight-toggle" title="Insight panel (I)">Insight</button>
+    </div>
+    <canvas id="stage"></canvas>
+  </div>
+  <div class="insight-panel" id="insight-panel"></div>
+  <script type="module" src="../src/viewer.js"></script>
+</body>
+</html>

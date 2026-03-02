@@ -1,0 +1,12 @@
+imgx = kscope.kscope.img._x;
+imgy = kscope.kscope.img._y;
+ii++;
+centerDiff = Math.sqrt(Math.pow(Math.abs(_xmouse),2) + Math.pow(Math.abs(_ymouse),2));
+xmouse = _xmouse;
+ymouse = _ymouse;
+sxmouse += (xmouse - sxmouse) / 20;
+symouse += (ymouse - symouse) / 20;
+docWidth = 450;
+docHeight = 728;
+Xpercent = sxmouse / (docWidth / 2) * 100;
+Ypercent = symouse / (docHeight / 2) * 100;

@@ -1,0 +1,10 @@
+i++;
+Ball._alpha = 100;
+Ball.duplicateMovieClip("Ball" + i,i);
+Ball._x = 300;
+waveL = Math.cos(i / (Math.sin(i / 320) * 640)) * 20 - Math.cos(i / 32) * 640;
+Ball._y = Math.sin(i / waveL) * 32;
+BallScale = 6 + Math.cos(i / waveL) * 2;
+Ball._xscale = Math.pow(BallScale,2);
+Ball._yscale = Math.pow(BallScale,2);
+Ball._alpha = 0;

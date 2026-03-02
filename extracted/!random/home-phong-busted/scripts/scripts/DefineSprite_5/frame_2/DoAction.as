@@ -1,0 +1,16 @@
+i++;
+BallDup = Math.abs(Ball._y / 10);
+Ball._alpha = 100;
+Ball.duplicateMovieClip("Ball" + i,i);
+rem = i - 32;
+removeMovieClip("Ball" + rem);
+xmouse += (_xmouse - xmouse) / 33;
+ymouse += (_ymouse - ymouse) / 33;
+xMPlus -= xmouse;
+Spinco += Math.sin(iii / 2) * xmouse / 3;
+Ball._x = xmouse + Spinco;
+Ball._y = Math.cos(i / 4 + xmouse / 100) * (Math.cos(Ball._x / 200) * 110);
+BallScale = 16 + Math.sin(i / 4) * 8;
+Ball._xscale = BallScale;
+Ball._yscale = BallScale;
+Ball._alpha = 0;

@@ -1,0 +1,44 @@
+Count++;
+easeTime = 20;
+Xdif = _xmouse - XMouseEase;
+Ydif = _ymouse - YMouseEase;
+XMouseEase += Xdif / easeTime;
+YMouseEase += Ydif / easeTime;
+SmoothX = Xdif / easeTime;
+aXMouse = _xmouse - XMouseEase;
+aYMouse = _ymouse - YMouseEase;
+Line._xscale = Xdif;
+Line._yscale = Ydif;
+Line._x = XmouseEase;
+Line._y = YmouseEase;
+i = 0;
+while(numy >= i)
+{
+   exes = getProperty("kew" + i, _X);
+   eyes = getProperty("kew" + i, _Y);
+   kewX = getProperty("kew", _X);
+   kewY = getProperty("kew", _Y);
+   supx = ((- i) * (kewX - XMouseEase * i / numy) + kewX) / numy + kewX - kewX / numy;
+   supy = ((- i) * (kewY - YMouseEase * i / numy) + kewY) / numy + kewY - kewY / numy;
+   setProperty("kew" + i, _alpha, i * (90 / numY));
+   kewScale = 15 * i + 10 * i + i * 2 + 20;
+   setProperty("kew" + i, _xscale, kewscale);
+   setProperty("kew" + i, _yscale, kewscale);
+   setProperty("kew" + i, _X, supx);
+   setProperty("kew" + i, _Y, supy);
+   setProperty("kew" + i, _rotation, i * 20 + Xdif * i / 20);
+   innerSin = i * 2 + Math.sin((i + Count / 2) / 4) * 30 + 30;
+   innerScale = 100 - innerSin + Math.sin(i + Count) * 8;
+   outerScale = 150 - innerSin;
+   innerBlueScale = innerScale * 2 + 20 + Math.cos(Count / 50) * 15;
+   _root["kew" + i].inner.innerBlue._xscale = innerBlueScale;
+   _root["kew" + i].inner.innerBlue._yscale = innerBlueScale;
+   _root["kew" + i].inner.innerBlue._alpha = innerBlueScale;
+   _root["kew" + i].inner.innerBlue._rotation = innerScale + Count + outerScale / 60;
+   fullScale = outerScale + Math.cos(i / 20 + Count / 10) * 0.5 + Math.cos((i + count) / 20) * 20;
+   _root["kew" + i].inner._xscale = fullScale;
+   _root["kew" + i].inner._yscale = fullScale;
+   i++;
+}
+cursor1._x = _xmouse;
+cursor1._y = _ymouse;

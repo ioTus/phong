@@ -1,0 +1,1902 @@
+{
+  "total_unique": 99,
+  "total_scanned": 107,
+  "duplicates_removed": 8,
+  "categories": {
+    "!random": 19,
+    "fractal": 29,
+    "graph": 9,
+    "kscope": 1,
+    "lab": 9,
+    "ringler": 16,
+    "root": 1,
+    "spiral": 4,
+    "superslide": 8,
+    "swfs": 3
+  },
+  "animations": [
+    {
+      "slug": "ballers11",
+      "filename": "ballers11.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/ballers11.swf",
+      "category": "!random",
+      "size": 10373,
+      "md5": "d16a041574cf234043659be5258b8743",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 9,
+        "shapes": 11,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 264,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "churning3",
+      "filename": "churning3.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/churning3.swf",
+      "category": "!random",
+      "size": 5327,
+      "md5": "b95a81a76b78a5f00d1dc72b9be574ad",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 13,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "engine",
+      "filename": "engine.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/engine.swf",
+      "category": "!random",
+      "size": 607,
+      "md5": "cd8efdc36b57622262f41a73090bfce5",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 24,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "fern",
+      "filename": "fern.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/fern.swf",
+      "category": "!random",
+      "size": 1185,
+      "md5": "d51e880ed5309e0d55211c02d93e28e1",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 27,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ganjascope",
+      "filename": "ganjascope.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/ganjascope.swf",
+      "category": "!random",
+      "size": 124221,
+      "md5": "470e525836b803f415fd07893c33e8f8",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 9,
+        "shapes": 7,
+        "images": 1
+      },
+      "complexity": "medium",
+      "code_lines": 61,
+      "features": []
+    },
+    {
+      "slug": "having-a-laugh4",
+      "filename": "having a laugh4.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/having a laugh4.swf",
+      "category": "!random",
+      "size": 8410,
+      "md5": "97b95001dca73e7bbb15a6c5f06e7198",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 1,
+        "shapes": 51,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 1,
+      "features": []
+    },
+    {
+      "slug": "home-phong-busted",
+      "filename": "home.phong.busted.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/home.phong.busted.swf",
+      "category": "!random",
+      "size": 2300,
+      "md5": "676fa0c8bcf264007dee86aa10fbe189",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 26,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "horiball11",
+      "filename": "horiball11.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/horiball11.swf",
+      "category": "!random",
+      "size": 1527,
+      "md5": "452213513af18d4d0bd33e1af2ff8bc8",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 9,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 87,
+      "features": []
+    },
+    {
+      "slug": "infinitytest02",
+      "filename": "infinityTest02.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/infinityTest02.swf",
+      "category": "!random",
+      "size": 552,
+      "md5": "cb25601e49f5b2862143106c819ce625",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 19,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "intertrip3",
+      "filename": "interTrip3.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/interTrip3.swf",
+      "category": "!random",
+      "size": 930,
+      "md5": "f9cbd3356bf53ac37cfbabac6e1dabe9",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 30,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "intertrip666",
+      "filename": "interTrip666.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/interTrip666.swf",
+      "category": "!random",
+      "size": 2503,
+      "md5": "f9356b88b9c3710e626d5112397a9439",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 9,
+        "shapes": 5,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 60,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "intro1",
+      "filename": "intro1.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/intro1.swf",
+      "category": "!random",
+      "size": 1972609,
+      "md5": "5098933cdfd7bfdb344a5bbc361c0f60",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 0,
+        "shapes": 3,
+        "images": 1
+      },
+      "complexity": "simple",
+      "code_lines": 0,
+      "features": []
+    },
+    {
+      "slug": "musicaltengent2",
+      "filename": "musicalTengent2.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/musicalTengent2.swf",
+      "category": "!random",
+      "size": 1526,
+      "md5": "81e28e9d00855def94e297fef63bfda0",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 28,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "particle1-orange2",
+      "filename": "particle1.orange2.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/particle1.orange2.swf",
+      "category": "!random",
+      "size": 1813,
+      "md5": "f33ff5202f1ce8cd364d0500d3e2dc66",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 10,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 37,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "particles14-new-colors",
+      "filename": "particles14-new colors.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/particles14-new colors.swf",
+      "category": "!random",
+      "size": 10223,
+      "md5": "6d1fd47506e0a0e904ba6f707a409672",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 9,
+        "shapes": 17,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 70,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "sine",
+      "filename": "sine.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/sine.swf",
+      "category": "!random",
+      "size": 4338,
+      "md5": "836e87339f97b252021679be7838fe44",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 17,
+        "shapes": 6,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 119,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "stay7",
+      "filename": "stay7.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/stay7.swf",
+      "category": "!random",
+      "size": 3447,
+      "md5": "fcce80de19248367498c151456dbb986",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 107,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "threed4",
+      "filename": "threeD4.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/threeD4.swf",
+      "category": "!random",
+      "size": 2792,
+      "md5": "6b46b7ff51f4504feada72b9ed99e2e2",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 83,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "wtf2",
+      "filename": "wtf2.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!random/wtf2.swf",
+      "category": "!random",
+      "size": 596,
+      "md5": "d865b02a33a1e0a788b44517ff4b0565",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 7,
+      "features": []
+    },
+    {
+      "slug": "angle",
+      "filename": "angle.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/angle.swf",
+      "category": "fractal",
+      "size": 1000,
+      "md5": "9e3ef4a55ea865561e71529481778b3f",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 2,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 55,
+      "features": []
+    },
+    {
+      "slug": "fractal-cover",
+      "filename": "fractal cover.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal cover.swf",
+      "category": "fractal",
+      "size": 2291,
+      "md5": "0a8c44ebd088cab5de3216370d20f730",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 19,
+        "shapes": 5,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 94,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-engin43",
+      "filename": "fractal engin43.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal engin43.swf",
+      "category": "fractal",
+      "size": 1395,
+      "md5": "a0b7cc195bea42d74b3094eda3787a21",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 7,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 35,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-engine",
+      "filename": "fractal engine.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal engine.swf",
+      "category": "fractal",
+      "size": 540,
+      "md5": "dbfc6429ecaac436c90d8ecaae3f5ad8",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 22,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-experamentor",
+      "filename": "fractal experamentor.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal experamentor.swf",
+      "category": "fractal",
+      "size": 1931,
+      "md5": "2cd176c4314c46a28fd6a805c5ecf11d",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 17,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 94,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-experamentor2",
+      "filename": "fractal experamentor2.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal experamentor2.swf",
+      "category": "fractal",
+      "size": 1760,
+      "md5": "ffe2405c0aa71da59b5c3e7da9768222",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 17,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 76,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-experamentor21",
+      "filename": "fractal experamentor21.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal experamentor21.swf",
+      "category": "fractal",
+      "size": 1941,
+      "md5": "447c86acb90c39747815d0ff7dbc7b0b",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 17,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 76,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-experamentor22",
+      "filename": "fractal experamentor22.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal experamentor22.swf",
+      "category": "fractal",
+      "size": 1974,
+      "md5": "f6814c735a17603d0a39ed9ead5ea835",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 17,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 76,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-experamentor23",
+      "filename": "fractal experamentor23.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal experamentor23.swf",
+      "category": "fractal",
+      "size": 2271,
+      "md5": "f374495593e8dfad9b4eba9cb8b70d1f",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 17,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 79,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-experamentor4",
+      "filename": "fractal experamentor4.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal experamentor4.swf",
+      "category": "fractal",
+      "size": 1833,
+      "md5": "1c2a9c273b182e88398482441fb195d7",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 17,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 82,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-experamentor5",
+      "filename": "fractal experamentor5.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal experamentor5.swf",
+      "category": "fractal",
+      "size": 1839,
+      "md5": "3b0fecd54a93afabb7b9cbd077e197f8",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 17,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 82,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-fire",
+      "filename": "fractal fire.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal fire.swf",
+      "category": "fractal",
+      "size": 1781,
+      "md5": "caf0d9e8ebc73f6bd06c12f4e1d58df4",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 13,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 38,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-fire2",
+      "filename": "fractal fire2.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal fire2.swf",
+      "category": "fractal",
+      "size": 1936,
+      "md5": "b35340ff878e352141be6e4709e1272f",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 19,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 58,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-grower",
+      "filename": "fractal grower.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal grower.swf",
+      "category": "fractal",
+      "size": 1763,
+      "md5": "045f4b07e3fbbf19d6050a9fdca99af7",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 13,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 38,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-menu4",
+      "filename": "fractal menu4.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal menu4.swf",
+      "category": "fractal",
+      "size": 3713,
+      "md5": "b18172189d050fd31f28af7eb5caf45a",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 25,
+        "shapes": 7,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 119,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-menu5",
+      "filename": "fractal menu5.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal menu5.swf",
+      "category": "fractal",
+      "size": 2309,
+      "md5": "589fb3cc6db4af8a340dada181a6d515",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 19,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 103,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-menu6",
+      "filename": "fractal menu6.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal menu6.swf",
+      "category": "fractal",
+      "size": 2217,
+      "md5": "3d9b407be21f5813d391a5f3c3a67bea",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 19,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 89,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "fractal-somthing3",
+      "filename": "fractal somthing3.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/fractal somthing3.swf",
+      "category": "fractal",
+      "size": 1432,
+      "md5": "0a9372a8664b16c95a7ec5ef70272a74",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 43,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "hanging-tree",
+      "filename": "hanging tree.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/hanging tree.swf",
+      "category": "fractal",
+      "size": 4532,
+      "md5": "87e7524db9c165f226175aa6e329c0d4",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 24,
+        "shapes": 10,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 138,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "inner-fractal",
+      "filename": "inner fractal.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/inner fractal.swf",
+      "category": "fractal",
+      "size": 1022,
+      "md5": "62838004d52ac83367d9620fe593aa5a",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 42,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "inner-fractal10",
+      "filename": "inner fractal10.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/inner fractal10.swf",
+      "category": "fractal",
+      "size": 972,
+      "md5": "b31f386263186c2380b04877661dbe73",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 40,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "inner-fractal2",
+      "filename": "inner fractal2.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/inner fractal2.swf",
+      "category": "fractal",
+      "size": 976,
+      "md5": "62c1c237eef0dff7119097f48672a9ab",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 40,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "inner-fractal4",
+      "filename": "inner fractal4.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/inner fractal4.swf",
+      "category": "fractal",
+      "size": 1009,
+      "md5": "e572308840dc9e98b4eb8d371ed84354",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 40,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "inner-fractal5",
+      "filename": "inner fractal5.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/inner fractal5.swf",
+      "category": "fractal",
+      "size": 1003,
+      "md5": "2e73d93e86379d60ae7d816bcf1aa065",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 34,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "inner-fractal9",
+      "filename": "inner fractal9.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/inner fractal9.swf",
+      "category": "fractal",
+      "size": 972,
+      "md5": "15e12108343a023c8171845f7386ff6f",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 40,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "justline",
+      "filename": "!justline.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/!justline.swf",
+      "category": "fractal",
+      "size": 1589,
+      "md5": "62f1820cd1a652b30174cb220940040a",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 17,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 85,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "tri-fractal2",
+      "filename": "tri fractal2.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/tri fractal2.swf",
+      "category": "fractal",
+      "size": 999,
+      "md5": "a976e0b59c8b508c29e45fe493968464",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 37,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "wave-fractal-waver",
+      "filename": "wave fractal waver.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/wave fractal waver.swf",
+      "category": "fractal",
+      "size": 1248,
+      "md5": "718802a6176b814393d593b5b2c593a0",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 5,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 37,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "waving-fractal",
+      "filename": "waving fractal.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/fractal/waving fractal.swf",
+      "category": "fractal",
+      "size": 986,
+      "md5": "1c2629767d728d4ab7251467059705d8",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 10,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 35,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "2-menu",
+      "filename": "2 menu.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/graph/2 menu.swf",
+      "category": "graph",
+      "size": 1812,
+      "md5": "a72726e5e3651612d569434667787fcb",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 6,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 36,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "3",
+      "filename": "3.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/graph/3.swf",
+      "category": "graph",
+      "size": 1887,
+      "md5": "78722641e975ec66d9e53ff2d6589e1d",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 6,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 36,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "5",
+      "filename": "5.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/graph/5.swf",
+      "category": "graph",
+      "size": 1928,
+      "md5": "dc185af8aa4eb6ae3d5c0dcacc7a56ae",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 6,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 36,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "6-black",
+      "filename": "6 black.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/graph/6 black.swf",
+      "category": "graph",
+      "size": 2106,
+      "md5": "c2be17aed09cf01f6e64a49d9b39ae90",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 6,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 38,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "angle-test",
+      "filename": "angle test.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/graph/angle test.swf",
+      "category": "graph",
+      "size": 372,
+      "md5": "ccf49c672194ff17d666203cd47530e8",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 2,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 12,
+      "features": []
+    },
+    {
+      "slug": "gradients",
+      "filename": "gradients.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/graph/gradients.swf",
+      "category": "graph",
+      "size": 2103,
+      "md5": "84c56a6eb52af5f185444e2e6d18a37e",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 6,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 38,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "so-sea-sick-11",
+      "filename": "so sea sick 11.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/graph/so sea sick 11.swf",
+      "category": "graph",
+      "size": 6341,
+      "md5": "5a9ad576ab92689310b89bfca41417ce",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 16,
+        "shapes": 8,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 118,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "so-sea-sick-2",
+      "filename": "so sea sick 2.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/graph/so sea sick 2.swf",
+      "category": "graph",
+      "size": 2465,
+      "md5": "3569971e29fbf7384e408d1fb0040852",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 6,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 49,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "vibrations",
+      "filename": "vibrations.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/graph/vibrations.swf",
+      "category": "graph",
+      "size": 2129,
+      "md5": "763924b62757d5e9c46a082d62f29ea6",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 6,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 39,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "url-kscope06",
+      "filename": "URL_kscope06.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/kscope/URL_kscope06.swf",
+      "category": "kscope",
+      "size": 18143,
+      "md5": "b252978ff9e68ed81a799374ce1453b1",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 42,
+        "shapes": 16,
+        "images": 4
+      },
+      "complexity": "medium",
+      "code_lines": 282,
+      "features": [
+        "loadMovie"
+      ]
+    },
+    {
+      "slug": "16-arms",
+      "filename": "16 Arms.swf",
+      "path": "PHONG-SHOCKWAVE-FLASH-LAB-1/16 Arms.swf",
+      "category": "lab",
+      "size": 4320,
+      "md5": "e5ae06df2bd3e78043b27beddbbe4d4f",
+      "status": "extracted",
+      "alternate_paths": [
+        "PHONG-SHOCKWAVE-FLASH-LAB-1/16_arms.swf",
+        "ASTRO-PHONG-SOURCE-1/fractal/fractal menu3.swf"
+      ],
+      "extracted": {
+        "scripts": 19,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 94,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "4-circles-01",
+      "filename": "4 circles 01.swf",
+      "path": "PHONG-SHOCKWAVE-FLASH-LAB-1/4 circles 01.swf",
+      "category": "lab",
+      "size": 3560,
+      "md5": "bf8d66904d58717223ad9a80031a4326",
+      "status": "extracted",
+      "alternate_paths": [
+        "ASTRO-PHONG-SOURCE-1/fractal/4 circles 01.swf"
+      ],
+      "extracted": {
+        "scripts": 17,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 77,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "hell-going",
+      "filename": "hell_going.swf",
+      "path": "PHONG-SHOCKWAVE-FLASH-LAB-1/hell_going.swf",
+      "category": "lab",
+      "size": 4636,
+      "md5": "2f4ad67b0d2e2bd2206c62b8e2d60293",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 7,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 24,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "polartwilight",
+      "filename": "PolarTwilight.swf",
+      "path": "PHONG-SHOCKWAVE-FLASH-LAB-1/PolarTwilight.swf",
+      "category": "lab",
+      "size": 84600,
+      "md5": "726b005b02fead97bef41a29a1457bda",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 45,
+        "shapes": 37,
+        "images": 1
+      },
+      "complexity": "medium",
+      "code_lines": 310,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "square-spiral",
+      "filename": "square_spiral.swf",
+      "path": "PHONG-SHOCKWAVE-FLASH-LAB-1/square_spiral.swf",
+      "category": "lab",
+      "size": 3538,
+      "md5": "43dfe6dab4bc393a1723ace4d96da6f3",
+      "status": "extracted",
+      "alternate_paths": [
+        "ASTRO-PHONG-SOURCE-1/spiral/drawing9.swf"
+      ],
+      "extracted": {
+        "scripts": 8,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 23,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "superslide",
+      "filename": "SuperSlide.swf",
+      "path": "PHONG-SHOCKWAVE-FLASH-LAB-1/SuperSlide.swf",
+      "category": "lab",
+      "size": 37650,
+      "md5": "291d1a24168cc8846ab0bd2945649fea",
+      "status": "extracted",
+      "alternate_paths": [
+        "ASTRO-PHONG-SOURCE-1/superslide/superslide13- grey additive colors.swf"
+      ],
+      "extracted": {
+        "scripts": 11,
+        "shapes": 8,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 145,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "trifractal01",
+      "filename": "TriFractal01.swf",
+      "path": "PHONG-SHOCKWAVE-FLASH-LAB-1/TriFractal01.swf",
+      "category": "lab",
+      "size": 1924,
+      "md5": "7e225893c06340ce5f43bf7c3de1909b",
+      "status": "extracted",
+      "alternate_paths": [
+        "ASTRO-PHONG-SOURCE-1/fractal/fractal experamentor20.swf"
+      ],
+      "extracted": {
+        "scripts": 18,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 84,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "trifractal02",
+      "filename": "TriFractal02.swf",
+      "path": "PHONG-SHOCKWAVE-FLASH-LAB-1/TriFractal02.swf",
+      "category": "lab",
+      "size": 5006,
+      "md5": "7e15415027c97a3f93f269a21e9e0cce",
+      "status": "extracted",
+      "alternate_paths": [
+        "PHONG-SHOCKWAVE-FLASH-LAB-1/tri_fractal_grabber.swf"
+      ],
+      "extracted": {
+        "scripts": 17,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 82,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "wave-fractal",
+      "filename": "Wave Fractal.swf",
+      "path": "PHONG-SHOCKWAVE-FLASH-LAB-1/Wave Fractal.swf",
+      "category": "lab",
+      "size": 4027,
+      "md5": "c51d706aacff927a189b401975c57fb5",
+      "status": "extracted",
+      "alternate_paths": [
+        "ASTRO-PHONG-SOURCE-1/fractal/wave fractal3.swf"
+      ],
+      "extracted": {
+        "scripts": 16,
+        "shapes": 8,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 57,
+      "features": [
+        "attachMovie"
+      ]
+    },
+    {
+      "slug": "ringler10",
+      "filename": "ringler10.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler10.swf",
+      "category": "ringler",
+      "size": 1718,
+      "md5": "21b329f482a7333a008032c637572597",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 35,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler11",
+      "filename": "ringler11.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler11.swf",
+      "category": "ringler",
+      "size": 3858,
+      "md5": "d91d1bce4a7c54fa1e67f1743935ebdd",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 36,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler12",
+      "filename": "ringler12.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler12.swf",
+      "category": "ringler",
+      "size": 5676,
+      "md5": "fc98425bc124d71b34e57245e8f054ce",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 7,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 47,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler13",
+      "filename": "ringler13.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler13.swf",
+      "category": "ringler",
+      "size": 6342,
+      "md5": "f8124afc603bc54ff12481e2974f9dc8",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 40,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler13-colored",
+      "filename": "ringler13-colored.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler13-colored.swf",
+      "category": "ringler",
+      "size": 6972,
+      "md5": "d5536512ed5a63246d7fc032be3004a5",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 43,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler17",
+      "filename": "ringler17.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler17.swf",
+      "category": "ringler",
+      "size": 7358,
+      "md5": "d9900b13cfbde7340fa412fdd76cdaa2",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 46,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler18",
+      "filename": "ringler18.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler18.swf",
+      "category": "ringler",
+      "size": 7516,
+      "md5": "01a43e36a1e86c9f1420d5bb1a21dac0",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 48,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler2-3",
+      "filename": "ringler2.3.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler2.3.swf",
+      "category": "ringler",
+      "size": 18513,
+      "md5": "ed159e23aef6e673f4e16dfffb11f0ee",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 7,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 51,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler2-36",
+      "filename": "ringler2.36.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler2.36.swf",
+      "category": "ringler",
+      "size": 23050,
+      "md5": "5ecc2da20a736ab520206c3ad970dd85",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 7,
+        "shapes": 9,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 53,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler2-37",
+      "filename": "ringler2.37.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler2.37.swf",
+      "category": "ringler",
+      "size": 25874,
+      "md5": "5af98409e85e8e9c86aad35e2d748f4b",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 7,
+        "shapes": 12,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 50,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler2-38",
+      "filename": "ringler2.38.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler2.38.swf",
+      "category": "ringler",
+      "size": 26968,
+      "md5": "866ad991bf24a82169444221e93df489",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 7,
+        "shapes": 11,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 50,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler2-39",
+      "filename": "ringler2.39.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler2.39.swf",
+      "category": "ringler",
+      "size": 28213,
+      "md5": "30620aceb7f09baed3749bac2462a760",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 7,
+        "shapes": 9,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 50,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler2-43",
+      "filename": "ringler2.43.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler2.43.swf",
+      "category": "ringler",
+      "size": 37268,
+      "md5": "4338dcdcff53a8e8c6b9d47159f1493a",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 8,
+        "shapes": 8,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 56,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler8",
+      "filename": "ringler8.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler8.swf",
+      "category": "ringler",
+      "size": 1660,
+      "md5": "0cb4ee9c927672c7af59bc8448708157",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 34,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "ringler9",
+      "filename": "ringler9.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/ringler9.swf",
+      "category": "ringler",
+      "size": 1716,
+      "md5": "7ae020c2d64a0a0f4eb57defe7824a06",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 5,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 35,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "spiraltest",
+      "filename": "spiraltest.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/ringler/spiraltest.swf",
+      "category": "ringler",
+      "size": 676,
+      "md5": "7c43d6f5d2332f3843b65b7f8656dfa3",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 2,
+        "shapes": 2,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 2,
+      "features": []
+    },
+    {
+      "slug": "",
+      "filename": "!!!.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/!!!.swf",
+      "category": "root",
+      "size": 2242,
+      "md5": "24e7be848a089ecd45148bf55ef6f382",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 0,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 0,
+      "features": []
+    },
+    {
+      "slug": "drawing2",
+      "filename": "drawing2.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/spiral/drawing2.swf",
+      "category": "spiral",
+      "size": 470,
+      "md5": "682f98a444ef0c021b530eed8b5d4276",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 6,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 14,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "drawing3",
+      "filename": "drawing3.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/spiral/drawing3.swf",
+      "category": "spiral",
+      "size": 422,
+      "md5": "8dfe2ada230a5af32e07b7d324c76789",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 6,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 14,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "drawing4",
+      "filename": "drawing4.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/spiral/drawing4.swf",
+      "category": "spiral",
+      "size": 477,
+      "md5": "33d8201b0f94eccdc526594b99c6e9d7",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 6,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 14,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "drawing7",
+      "filename": "drawing7.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/spiral/drawing7.swf",
+      "category": "spiral",
+      "size": 1320,
+      "md5": "7395cc78fe439da6b7b9f1516959fc82",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 8,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 19,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "superslide11",
+      "filename": "superslide11.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/superslide/superslide11.swf",
+      "category": "superslide",
+      "size": 25284,
+      "md5": "9387db2b49f2ef0f9b3218aca004bd59",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 14,
+        "shapes": 7,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 181,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "superslide12",
+      "filename": "superslide12.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/superslide/superslide12.swf",
+      "category": "superslide",
+      "size": 24459,
+      "md5": "68c075851f5b2e89f1504a72962feb9f",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 9,
+        "shapes": 8,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 102,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "superslide2",
+      "filename": "superslide2.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/superslide/superslide2.swf",
+      "category": "superslide",
+      "size": 2497,
+      "md5": "597899d56439d49734eeb0957017659c",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 8,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 71,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "superslide3",
+      "filename": "superslide3.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/superslide/superslide3.swf",
+      "category": "superslide",
+      "size": 2696,
+      "md5": "21223670176d3dbbf3760a40c33c2735",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 8,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 72,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "superslide4",
+      "filename": "superslide4.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/superslide/superslide4.swf",
+      "category": "superslide",
+      "size": 2841,
+      "md5": "1eea03e6d8fbb48e75a8046ecd566e65",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 8,
+        "shapes": 3,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 80,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "superslide7",
+      "filename": "superslide7.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/superslide/superslide7.swf",
+      "category": "superslide",
+      "size": 4376,
+      "md5": "38d17d0e918cbae2669982abb765c46d",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 8,
+        "shapes": 5,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 94,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "superslide8",
+      "filename": "superslide8.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/superslide/superslide8.swf",
+      "category": "superslide",
+      "size": 5236,
+      "md5": "6006ea3fc9e4d09dc9ccae962357d233",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 8,
+        "shapes": 5,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 96,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "superslide9",
+      "filename": "superslide9.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/superslide/superslide9.swf",
+      "category": "superslide",
+      "size": 5288,
+      "md5": "8752b06b7a99bc60ca18ffb277acc326",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 8,
+        "shapes": 4,
+        "images": 0
+      },
+      "complexity": "medium",
+      "code_lines": 99,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "epileptics-beware",
+      "filename": "epileptics beware.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/swfs/epileptics beware.swf",
+      "category": "swfs",
+      "size": 930,
+      "md5": "07a733245526fcd4bc2bc36162b033c3",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 1,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 1,
+      "features": []
+    },
+    {
+      "slug": "spiralling-waves",
+      "filename": "spiralling waves.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/swfs/spiralling waves.swf",
+      "category": "swfs",
+      "size": 3054,
+      "md5": "d2c93ba730acdc93e86ffcb8ec9d5057",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 14,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    },
+    {
+      "slug": "violent-orange",
+      "filename": "violent orange.swf",
+      "path": "ASTRO-PHONG-SOURCE-1/swfs/violent orange.swf",
+      "category": "swfs",
+      "size": 5418,
+      "md5": "09919ee5c0189032cd4aa0d762808275",
+      "status": "extracted",
+      "extracted": {
+        "scripts": 4,
+        "shapes": 1,
+        "images": 0
+      },
+      "complexity": "simple",
+      "code_lines": 14,
+      "features": [
+        "duplicateMovieClip"
+      ]
+    }
+  ]
+}
