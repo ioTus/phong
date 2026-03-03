@@ -107,7 +107,7 @@ function renderGallery() {
 
     // Staggered entrance animation (skip on back-navigation)
     if (isBackNav) {
-      card.style.opacity = '0.25';
+      card.style.opacity = '0.66';
       card.style.transform = 'scale(1)';
     } else {
       setTimeout(() => card.classList.add('enter'), i * 100);
