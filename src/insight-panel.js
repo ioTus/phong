@@ -22,8 +22,9 @@ export class InsightPanel {
 
     this._toggleBtn.addEventListener('click', () => this.toggle());
 
-    // Open by default
-    this.toggle();
+    // Open by default on desktop only
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    if (!isMobile) this.toggle();
   }
 
   // ── Panel Toggle ──
@@ -41,6 +42,7 @@ export class InsightPanel {
 
   _buildDOM() {
     this._panelEl.innerHTML = `
+      <button class="panel-close" id="panel-close">&times;</button>
       <div class="insight-tabs">
         <button class="active" data-tab="controls">Controls</button>
         <button data-tab="code">Code</button>
@@ -54,6 +56,9 @@ export class InsightPanel {
         </div>
       </div>
     `;
+    // Re-bind close button after DOM rebuild
+    this._closeBtn = this._panelEl.querySelector('#panel-close');
+    this._closeBtn.addEventListener('click', () => { if (this._open) this.toggle(); });
 
     // Tab switching
     const tabs = this._panelEl.querySelectorAll('.insight-tabs button');

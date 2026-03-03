@@ -75,6 +75,7 @@
 
     /* ── Insight Panel ── */
     .insight-panel {
+      position: relative;
       width: 0;
       overflow: hidden;
       transition: width 0.3s ease;
@@ -299,6 +300,45 @@
       font-style: italic;
       padding: 2rem;
       text-align: center;
+    }
+
+    /* ── Mobile close button ── */
+    .panel-close {
+      display: none;
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      z-index: 20;
+      background: #222;
+      border: 1px solid #444;
+      color: #aaa;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-size: 1.1rem;
+      line-height: 1;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+    }
+    .panel-close:hover { color: #fff; border-color: #666; }
+
+    @media (max-width: 768px) {
+      .insight-panel {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 100vh;
+        z-index: 100;
+        border-left: none;
+        transition: width 0.3s ease;
+      }
+      .insight-panel.open { width: 100%; }
+      .insight-tabs { min-width: 0; }
+      .insight-tab-content { min-width: 0; }
+      .panel-close { display: flex; }
+      .toolbar { opacity: 1 !important; }
     }
   </style>
 </head>
